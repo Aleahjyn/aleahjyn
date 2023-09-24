@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <style>
+        p,
+        h3 {
+            padding: 5px;
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 2, 1fr;
+            grid-template-rows: 2, 1vh;
+            grid-template-areas: 
+            "name name "
+            "picture information  ";
+            gap: 5px;
+
+        }
+
+        .container div {
+            padding: 10px;
+            border: 1px solid #000000;
+        }
+
+
+
+        .name {
+            background-color: rgb(240, 8, 240);
+        }
+
+        .picture {
+            background-color: rgb(202, 127, 174);
+        }
+
+        .information {
+            background-color: rgb(150, 129, 138);
+        }
+
+
+
+        
+
+
+        .name {
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+
+        .picture {
+            grid-column: 1/2;
+            grid-row: 2/2;
+
+                }       
+         .information {
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+
+        
+        
+
+
+      
+       
+        
+    </style>
+</head>
+<body>
+    
+
+         <div class="container">
+            <div class="name">
+                <center><h1>Personal Profile</h1></center>
+         </div>
+
+         <div class="picture">
+            <img src= "lea.jpg" width="350" height="300">
+
+        </div>
+        
+            <div class="information">
+                <h4>Hi, Mabuhay! it's ALEAH JYN TANGOB 20 years oldfrom Candoni Negros Occidental, I finished my elementary at GTIMES and Hihgschool at CNHS MAIN and now a 3rd year BSIT student of CENTRAL PHILIPPINES STATE UNIVERSITY. My goal is to be successful and help my family. </h4>
+        <h5> SKILLS: Singing and Dancing</h5>
+        <h5> HOBBIES: Traveling in any places</h5>
+        <h5> FAVORITES: Fav.Food: Lasagna, Pizza, Chicken Joy</h5>
+            </div>
+ 
+    
+</body>
+</html>
